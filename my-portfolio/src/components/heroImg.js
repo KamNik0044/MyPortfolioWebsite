@@ -6,7 +6,7 @@ const heroImg = () => {
   return (
     <div className="hero">
       <div className="mask">
-
+        <img className="into-img" src=""/>
       </div>
     </div>
   )
