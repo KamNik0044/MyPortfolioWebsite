@@ -1,12 +1,14 @@
 import "./HeroImgStyles.css";
 
-import React from 'react'
+import React from "react";
+
+import IntroImg from "../assets/intro-bg.jpg"
 
 const heroImg = () => {
   return (
     <div className="hero">
       <div className="mask">
-        <img className="into-img" src=""/>
+        <img className="into-img" src={IntroImg} alt="IntroImg"/>
       </div>
     </div>
   )
