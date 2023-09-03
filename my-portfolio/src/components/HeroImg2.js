@@ -13,4 +13,4 @@ const HeroImg2 = () => {
   )
 }
 
-export default HeroImg2
+export default HeroImg2;
