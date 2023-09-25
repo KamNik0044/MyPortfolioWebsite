@@ -1,16 +1,19 @@
 import "./HeroImg2Styles.css"
 
-import React from 'react'
+import React, { Component } from 'react'
 
-const HeroImg2 = () => {
-  return (
+class HeroImg2 extends Component {
+  render(){
+       return (
     <div className="hero-img">
         <div className="heading">
-           <h1>this is heading</h1>
-           <p>this is paragraph</p>
+           <h1>{this.this.props.heading}</h1>
+           <p>{this.props.text}</p>
         </div>
     </div>
-  )
-}
+  );
+  }
+
+};
 
 export default HeroImg2;
