@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import "./PricingCradStyles.css"
 
 import React from 'react'
@@ -14,7 +15,31 @@ const PricingCard = () => {
             <p>- 3 Pages -</p>
             <p>- Featured -</p>
             <p>- Responsive Design -</p>
+            <Link to="/contact" className="btn">PURCHASE NOW</Link>
         </div>
+
+
+      <div className="card">
+            <h3>- Premium -</h3>
+            <span className="bar"></span>
+            <p className="btc">$ 200</p>
+            <p>- 2 Days -</p>
+            <p>- 4 Pages -</p>
+            <p>- Featured -</p>
+            <p>- Responsive Design -</p>
+            <Link to="/contact" className="btn">PURCHASE NOW</Link>
+        </div>
+
+        <div className="card">
+            <h3>- Business -</h3>
+            <span className="bar"></span>
+            <p className="btc">$ 250</p>
+            <p>- 6 Days -</p>
+            <p>- 8 Pages -</p>
+            <p>- Featured -</p>
+            <p>- Responsive Design -</p>
+            <Link to="/contact" className="btn">PURCHASE NOW</Link>
+        </div>  
       </div>
     </div>
   )
